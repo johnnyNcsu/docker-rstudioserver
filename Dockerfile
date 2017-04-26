@@ -30,6 +30,7 @@ LABEL org.label-schema.vendor = "ncsu-las" \
       org.label-schema.build-date = "2017-04-05” \
       org.label-schema.docker.cmd = "docker run -td -p 8787:8787 -v=<local R workspace>:/home/student rstudioserver_student" \
       org.label-schema.url = "https://cloud.docker.com/app/ncsulas/repository/docker/ncsulas/gov/general" \
+      org.label-schema.vcs-url = "https://github.com/johnnyNcsu/docker-rstudioserver.git" \
       org.label-schema.description = “R-Studio Server.” \
       org.label-schema.usage = “http://localhost:8787" \
       edu.las-ncsu.schema.version = "0.1" \
